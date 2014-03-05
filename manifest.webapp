@@ -1,0 +1,24 @@
+{
+    "name": "etiquetAR",
+    "description": "etiquetAR es una aplicación que permite interactuar con códigos QR geolocalizados, permitiendo la modificación de su contenido de forma dinámica y la creación de nuevo conocimiento a través de comentarios, visibles a cualquier usuario que vea un recurso determinado.",
+    "launch_path": "/index.html",
+    "type": "privileged",
+    "icons": {
+        "256": "/img/icon-256.png",
+        "128": "/img/icon-128.png",
+        "120": "/img/icon-120.png",
+        "90": "/img/icon-90.png",
+        "60": "/img/icon-60.png",
+        "32": "/img/icon-32.png"
+    },
+    "developer": {
+        "name": "Miguel Olmedo"
+    },
+    "permissions": {
+        "systemXHR": {
+            "description": "Necesario comunicarse con el servidor para que la aplicación funcione."
+        }
+    },
+    "default_locale": "es",
+    "orientation": "portrait"
+}

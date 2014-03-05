@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/dialog.js"></script>
+    <link rel="stylesheet" href="css/headers.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/progress_activity.css">
+</head>
+<body>
+<section role="region" class="skin-organic">
+    <header>
+        <a href="comments.html" id="back">
+            <span class="icon icon-back">Atrás</span>
+        </a>
+        <h1>etiquetAR</h1>
+    </header>
+</section>
+<label for="name" id="name_label">Nombre:</label><br/>
+<div class="text_align">
+    <input type="text" id="name" required/><br/>
+</div>
+<label for="comment" class="comment_label" id="comment_label">Comentario:</label>
+<p class="comment_label right_align" id="counter">140</p>
+<div class="text_align">
+    <textarea id="comment" rows="4" maxlength="140"></textarea><br/>
+</div>
+<div class="text_align">
+    <button>Guardar el comentario</button>
+</div>
+<div class="dialog-overlay"></div>
+<div class="dialog-box">
+    <div class="dialog-content">
+        <div class="dialog-message"></div>
+        <a href="#" class="button">Cerrar</a>
+    </div>
+</div>
+<script type="text/javascript" src="js/new_comment.js"></script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <script src="js/jquery.js"></script>
+    <script src="js/dialog.js"></script>
+    <script type="text/javascript" src="js/grid.js"></script>
+    <script type="text/javascript" src="js/version.js"></script>
+    <script type="text/javascript" src="js/detector.js"></script>
+    <script type="text/javascript" src="js/formatinf.js"></script>
+    <script type="text/javascript" src="js/errorlevel.js"></script>
+    <script type="text/javascript" src="js/bitmat.js"></script>
+    <script type="text/javascript" src="js/datablock.js"></script>
+    <script type="text/javascript" src="js/bmparser.js"></script>
+    <script type="text/javascript" src="js/datamask.js"></script>
+    <script type="text/javascript" src="js/rsdecoder.js"></script>
+    <script type="text/javascript" src="js/gf256poly.js"></script>
+    <script type="text/javascript" src="js/gf256.js"></script>
+    <script type="text/javascript" src="js/decoder.js"></script>
+    <script type="text/javascript" src="js/qrcode.js"></script>
+    <script type="text/javascript" src="js/findpat.js"></script>
+    <script type="text/javascript" src="js/alignpat.js"></script>
+    <script type="text/javascript" src="js/databr.js"></script>
+    <link rel="stylesheet" href="css/headers.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/progress_activity.css">
+</head>
+<body>
+<section role="region" class="skin-organic">
+    <header>
+        <menu type="toolbar">
+            <a href="#"><span class="icon icon-camera">Escanear un código QR</span></a>
+        </menu>
+        <a href="index.html">
+            <span class="icon icon-back">Volver atrás</span>
+        </a>
+        <h1>etiquetAR</h1>
+    </header>
+    <header>
+        <h2 id="collection_name"></h2>
+    </header>
+</section>
+<div id="map-canvas">
+    <img id="map" alt="google map" />
+</div>
+<div id="table">
+    <table id="tableMarkers">
+        <tr>
+            <th class="right-margin">Icono</th>
+            <th colspan="2" class="right-margin">Nombre etiqueta</th>
+            <th class="right-margin">Ver</th>
+            <th>Visto</th>
+        </tr>
+    </table>
+</div>
+<div class="dialog-overlay"></div>
+<div class="dialog-box">
+    <div class="dialog-content">
+        <div class="dialog-message"></div>
+        <a href="#" class="button">Cerrar</a>
+    </div>
+</div>
+<script type="text/javascript" src="js/qrs.js"></script>
+</body>
+</html>
